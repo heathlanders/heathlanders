@@ -7,11 +7,12 @@ RailRCS. Open to relocating anywhere in the US.
 
 ## Projects
 
-- **[VibeMobile](https://github.com/heathlanders/vibemobile)** — Android app
-  and Node/TypeScript daemon that run Claude Code sessions on a home server
-  from a phone. Built on the Claude Agent SDK, with an MCP server that lets
-  agents hand work to each other across sessions and an approval gate that
-  audits every tool call. Flutter, Fastify, SQLite, tmux; ~500 daemon tests.
+- **[VibeMobile](https://github.com/heathlanders/vibemobile)** — AI agent
+  harness on the Claude Agent SDK, with a native engine for OpenAI, Gemini and
+  Ollama models. Parallel sessions in git worktrees, scheduled runs, checkpoint
+  rewind, cost tracking, MCP tools for agent-to-agent handoff, and an approval
+  gate that audits every tool call. TypeScript/Fastify daemon with Flutter
+  Android and desktop clients; ~560 tests.
 - **[FlipStack](https://github.com/heathlanders/flipstack)** — multi-tenant
   operations platform for resellers: barcode intake, eBay/Amazon/Shopify
   integrations (OAuth, webhooks, queued jobs), and Gemini product
